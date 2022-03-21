@@ -1,0 +1,392 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html{
+	height: 100%;
+}
+
+body{
+	min-height: 100%;
+}
+.Menu{
+    max-width: 100%;
+    height: 150px;
+}
+.Menu table{
+    margin: 0 auto;
+    width: 100%;
+    height: 150px;        
+    border-collapse: collapse;
+}
+.Menu table th{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    width: 20%;
+    font-size: 36px;
+    color: #305be9;
+    text-align: center;
+    margin: auto;
+}
+nav{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    height: 100px;
+    text-align: right;
+}
+nav ul{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+nav ul li{
+    float: left;
+    margin-top: 22px;
+    padding-bottom: 2ex;
+}
+nav li{
+    padding-bottom: 2ex;
+}
+nav ul li a{
+    text-decoration: none;
+    color: grey;
+    padding: 30px;
+}
+nav li a:hover{
+    color: rgb(36, 89, 233);
+}
+/*-----------------------------Botones-----------------------------------------*/
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+    color: white;
+    background-color: rgb(36, 89, 233);
+    padding: 10px 35px 10px 35px;
+	border-radius: 5px;
+}
+button:hover{
+    background-color: rgb(217, 234, 236);
+    color: rgb(7, 41, 155);
+}
+/*-----------------------------Contenedor 1-----------------------------------------*/
+.Container1
+{
+    max-width: 35%;
+    height: auto;
+    text-align: left;
+    margin-top: 70px;
+    margin-left: 5%;
+    padding-top: 20px;
+}
+.Container1 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 76px;
+    color: rgb(7, 41, 155);
+}
+.Container1 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 30px;
+}
+.TableV{
+    width: 100%;
+    margin: 0;
+    padding: 35px;
+}
+.TableV p{
+    font-size: 20px;
+    color: rgb(52, 52, 80);
+    display: block;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.TableV img{
+    display: block;
+    margin: auto;
+}
+#Fondo1{
+    height: 691px;
+    width: 691px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background-image: url("./Vacuna.jpg");
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+/*-----------------------------Schedule-----------------------------------------*/
+.Schedule{
+    margin-left: 7.7%;
+    height: auto;
+    margin-top: 100px;
+    max-width: 25%;
+    align-items: left;
+}
+.Schedule p
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: rgb(14, 14, 151);
+    
+}
+/*-----------------------------Contenedor 2 Formulario---------------------------*/
+.ContainerForm{
+    margin-top: 15px;
+    max-width: 45%;
+    height: auto;
+    margin-left: 10%;
+    box-shadow: 10px 11px 5px 0px rgba(247,234,234,0.75);
+    -webkit-box-shadow: 10px 11px 5px 0px rgba(247,234,234,0.75);
+    -moz-box-shadow: 10px 11px 5px 0px rgba(247,234,234,0.75);
+}
+.ContainerForm p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: grey;
+}
+.Form{
+    border-spacing: 12px;
+}
+.Form img{
+    align-items: baseline;
+}
+/*-----------------------------Logos---------------------------*/
+.Logos{
+    max-width: 100%;
+    height: 200px;
+    opacity: 0.1;
+    padding-top: 35px;
+}
+.Logos img{
+    padding-left: 50px;
+    padding-top: 30px;
+}
+/*-----------------------------Contenedor 3-----------------------------------------*/
+.Container3
+{
+    max-width: 40%;
+    height: auto;
+    text-align: left;
+    margin-top: 100px;
+    margin-left: 5%;
+    padding-top: 20px;
+}
+.Container3 h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    color: rgb(7, 41, 155);
+}
+.Container3 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 28px;
+}
+/*-----------------------------Benefits-----------------------------------------*/
+.Benefits{
+    max-width: 100%;
+    height: auto;
+    margin-top: 50px;
+
+}
+.Benefits div{
+    background-color: rgb(252, 252, 252);
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    text-align: left;
+    margin-left: 7%;
+    border-radius: 15px;
+    box-shadow: 10px 11px 5px 0px rgba(247,234,234,0.75);
+    -webkit-box-shadow: 10px 11px 5px 0px rgba(247,234,234,0.75);
+    -moz-box-shadow: 10px 11px 5px 0px rgba(247,234,234,0.75);
+    display: inline-block;
+    transition: 0.5s;
+}
+
+.Benefits div h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 14, 151);
+    font-size: 26px;
+}
+.Benefits div p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 18px;
+}
+.B1{
+    margin-left: 5%;
+    margin-bottom: 5%;
+}
+.B2{
+    margin-left: 5%;
+}
+.B3{
+    margin-left: 5%;
+}
+.B4{
+    margin-left: 5%;
+}
+.Benefits div:hover{
+    transform: translateY(-15px);
+}
+/*-----------------------------Preparations-----------------------------------------*/
+.Preparations{
+    max-width: 65%;
+    height: 100%;
+    margin-top: 80px;
+    margin-left: 25%;
+    padding: 50px;
+}
+.Preparations h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 14, 151);
+    font-size: 46px;
+}
+.Preparations p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 22px;
+}
+.Preparations table{
+    margin-top: 40px;
+}
+.Preparations table tr{
+    width: 800px;
+    padding: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+    border: 2px solid rgb(235, 243, 243);
+    transition: 0.5s;
+}
+.Preparations table h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 14, 151);
+}
+.ImgPrep{
+    margin-left: 0%;
+    max-width: 45%;
+    height: 600px;
+
+}
+.Preparations .Tds tr:hover{
+    transform: translateX(15px);
+}
+/*-----------------------------Emergency-----------------------------------------*/
+.Titulo{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(14, 14, 151);
+    font-size: 46px;
+}
+.Container4 p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: grey;
+    font-size: 22px;
+}
+.Container4{
+    max-width: 45%;
+    margin-left: 5%;
+    margin-top: 40px;
+    width: 45%;
+}
+.Contacts{
+    max-width: 100%;
+    margin-top: 100px;
+    margin-bottom: 150px;
+    margin-left: 10%;
+}
+.C1{
+    width: 300px;
+    height: 200px;
+    
+}
+.C2{
+
+    width: 300px;
+    height: 200px;
+    
+}
+.C3{
+    width: 300px;
+    height: 200px;
+    margin-left: 35%;
+    
+}
+.C4{
+    width: 300px;
+    height: 200px;
+    margin-left: 35%;
+    
+}
+.ImgEmerg{
+    margin-left: 110%;
+    background-color: rgb(44, 99, 99);
+}
+.Contenido{
+    width: 100%;
+    padding: 15px;
+    border-spacing: 25px;
+    border: 2px white outset ;
+}
+.Contenido button{
+    margin-left: 45px;
+}
+.Contenido p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    color: rgb(7, 41, 155);
+    font-size: 24px;
+}
+.Contenido td{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: grey;
+}
+footer{
+    max-width: 100%;
+    height: 300px;
+    background-color: rgb(216, 242, 247);
+    margin-top: 75px;
+
+}
+footer .Info1{
+    position: relative;
+    left: 100px;
+    top: 5px;
+    padding: 10px;
+    height: auto;
+    width: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Info1 h1{
+    color: rgb(7, 41, 155);
+    font-size: 30px;
+}
+.Info1 p{
+    color: grey;
+}
+footer .Info2{
+    position: relative;
+    left: 68%;
+    top: -150px;
+    width: 500px;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Info2 h4{
+    font-size: 20px;
+    color: rgb(7, 41, 155);
+}
+.Info2 a{
+    font-size: 14px;
+    color: grey;
+}
+.Info2 a:hover{
+    color: rgb(7, 41, 155);
+}
+
+
+
